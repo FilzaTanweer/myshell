@@ -30,9 +30,9 @@
  */
 
 /* Enable POSIX.1-2008 + GNU extensions for sigaction, sigset_t, etc.
- * Must be defined before any system header is included.            */
+ */
 #ifndef _GNU_SOURCE
-#  define _GNU_SOURCE
+#define _GNU_SOURCE
 #endif
 
 #include <stdio.h>
@@ -70,7 +70,7 @@ static void print_banner(void)
     char banner[512];
     int  n = snprintf(banner, sizeof(banner),
         "\n"
-        "  myshell -- OS Project (FAST-NUCES | Minhal Raza)\n"
+        "  myshell -- OS Project (FAST-NUCES | FILZA TANWEER - FATIMA HAIDER - BISMAH SHEIKH)\n"
         "  Shell PID (via my_getpid syscall): %d\n"
         "  Type 'help' for commands, 'exit' to quit.\n\n",
         pid);
