@@ -40,9 +40,6 @@ make
 # Run automated tests
 make test
 
-# Memory-leak check (requires valgrind)
-make memcheck
-
 # Clean build artefacts
 make clean
 ```
